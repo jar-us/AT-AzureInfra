@@ -1,0 +1,13 @@
+{
+  "id": "/subscriptions/bb3ccafe-6895-456d-aab1-9b65a4ed0afd/resourceGroups/msdocs-postgresql-rg-156548392",
+  "location": "centralindia",
+  "managedBy": null,
+  "name": "msdocs-postgresql-rg-156548392",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": {
+    "create-postgresql-server-and-firewall-rule": ""
+  },
+  "type": "Microsoft.Resources/resourceGroups"
+}

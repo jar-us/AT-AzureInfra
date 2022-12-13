@@ -1,0 +1,8 @@
+{
+  "endIpAddress": "49.37.240.122",
+  "id": "/subscriptions/bb3ccafe-6895-456d-aab1-9b65a4ed0afd/resourceGroups/msdocs-postgresql-rg-156548392/providers/Microsoft.DBforPostgreSQL/servers/msdocs-postgresql-server-156548392/firewallRules/AllowIps",
+  "name": "AllowIps",
+  "resourceGroup": "msdocs-postgresql-rg-156548392",
+  "startIpAddress": "49.37.240.122",
+  "type": "Microsoft.DBforPostgreSQL/servers/firewallRules"
+}

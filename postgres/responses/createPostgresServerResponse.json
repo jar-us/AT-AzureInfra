@@ -1,0 +1,41 @@
+{
+  "additionalProperties": {},
+  "administratorLogin": "azureuser",
+  "byokEnforcement": "Disabled",
+  "connectionString": "postgres://azureuser%40msdocs-postgresql-server-156548392:Pa75340w0rD-156548392@msdocs-postgresql-server-156548392.postgres.database.azure.com/postgres?sslmode=require",
+  "earliestRestoreDate": "2022-11-13T12:16:22.013000+00:00",
+  "fullyQualifiedDomainName": "msdocs-postgresql-server-156548392.postgres.database.azure.com",
+  "id": "/subscriptions/bb3ccafe-6895-456d-aab1-9b65a4ed0afd/resourceGroups/msdocs-postgresql-rg-156548392/providers/Microsoft.DBforPostgreSQL/servers/msdocs-postgresql-server-156548392",
+  "identity": null,
+  "infrastructureEncryption": "Disabled",
+  "location": "centralindia",
+  "masterServerId": "",
+  "minimalTlsVersion": "TLSEnforcementDisabled",
+  "name": "msdocs-postgresql-server-156548392",
+  "password": "Pa75340w0rD-156548392",
+  "privateEndpointConnections": [],
+  "publicNetworkAccess": "Enabled",
+  "replicaCapacity": 5,
+  "replicationRole": "None",
+  "resourceGroup": "msdocs-postgresql-rg-156548392",
+  "sku": {
+    "additionalProperties": {},
+    "capacity": 2,
+    "family": "Gen5",
+    "name": "GP_Gen5_2",
+    "size": null,
+    "tier": "GeneralPurpose"
+  },
+  "sslEnforcement": "Enabled",
+  "storageProfile": {
+    "additionalProperties": {},
+    "backupRetentionDays": 7,
+    "geoRedundantBackup": "Disabled",
+    "storageAutogrow": "Enabled",
+    "storageMb": 5120
+  },
+  "tags": null,
+  "type": "Microsoft.DBforPostgreSQL/servers",
+  "userVisibleState": "Ready",
+  "version": "9.6"
+}

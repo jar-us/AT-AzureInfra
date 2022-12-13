@@ -1,0 +1,99 @@
+{
+  "containers": [
+    {
+      "command": null,
+      "environmentVariables": [],
+      "image": "suraj123456789/instrument-api",
+      "instanceView": {
+        "currentState": {
+          "detailStatus": "",
+          "exitCode": null,
+          "finishTime": null,
+          "startTime": "2022-11-10T14:26:10.607000+00:00",
+          "state": "Running"
+        },
+        "events": [
+          {
+            "count": 1,
+            "firstTimestamp": "2022-11-10T14:25:42+00:00",
+            "lastTimestamp": "2022-11-10T14:25:42+00:00",
+            "message": "pulling image \"suraj123456789/instrument-api@sha256:cab03cc8396538c4dcef4563defef201bc62d270c93bb2961c571b581d924d4a\"",
+            "name": "Pulling",
+            "type": "Normal"
+          },
+          {
+            "count": 1,
+            "firstTimestamp": "2022-11-10T14:26:02+00:00",
+            "lastTimestamp": "2022-11-10T14:26:02+00:00",
+            "message": "Successfully pulled image \"suraj123456789/instrument-api@sha256:cab03cc8396538c4dcef4563defef201bc62d270c93bb2961c571b581d924d4a\"",
+            "name": "Pulled",
+            "type": "Normal"
+          },
+          {
+            "count": 1,
+            "firstTimestamp": "2022-11-10T14:26:10+00:00",
+            "lastTimestamp": "2022-11-10T14:26:10+00:00",
+            "message": "Started container",
+            "name": "Started",
+            "type": "Normal"
+          }
+        ],
+        "previousState": null,
+        "restartCount": 0
+      },
+      "livenessProbe": null,
+      "name": "instrument-api",
+      "ports": [
+        {
+          "port": 8080,
+          "protocol": "TCP"
+        }
+      ],
+      "readinessProbe": null,
+      "resources": {
+        "limits": null,
+        "requests": {
+          "cpu": 1.0,
+          "gpu": null,
+          "memoryInGb": 1.5
+        }
+      },
+      "volumeMounts": null
+    }
+  ],
+  "diagnostics": null,
+  "dnsConfig": null,
+  "encryptionProperties": null,
+  "id": "/subscriptions/bb3ccafe-6895-456d-aab1-9b65a4ed0afd/resourceGroups/instrument-api/providers/Microsoft.ContainerInstance/containerGroups/instrument-api",
+  "identity": null,
+  "imageRegistryCredentials": null,
+  "initContainers": [],
+  "instanceView": {
+    "events": [],
+    "state": "Running"
+  },
+  "ipAddress": {
+    "dnsNameLabel": "instrument-api",
+    "fqdn": "instrument-api.centralindia.azurecontainer.io",
+    "ip": "4.224.65.154",
+    "ports": [
+      {
+        "port": 8080,
+        "protocol": "TCP"
+      }
+    ],
+    "type": "Public"
+  },
+  "location": "centralindia",
+  "name": "instrument-api",
+  "osType": "Linux",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "instrument-api",
+  "restartPolicy": "Always",
+  "sku": "Standard",
+  "subnetIds": null,
+  "tags": {},
+  "type": "Microsoft.ContainerInstance/containerGroups",
+  "volumes": null,
+  "zones": null
+}

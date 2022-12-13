@@ -1,0 +1,16 @@
+[
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "eab1a252-2056-4d98-a9b5-795e871ad685",
+    "id": "bb3ccafe-6895-456d-aab1-9b65a4ed0afd",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "Free Trial",
+    "state": "Enabled",
+    "tenantId": "eab1a252-2056-4d98-a9b5-795e871ad685",
+    "user": {
+      "name": "9f642d8b-8301-4df8-8c28-753408d58d4f",
+      "type": "servicePrincipal"
+    }
+  }
+]

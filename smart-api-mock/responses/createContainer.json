@@ -1,0 +1,74 @@
+{
+  "containers": [
+    {
+      "command": null,
+      "environmentVariables": [],
+      "image": "suraj123456789/smart-api-mock",
+      "instanceView": {
+        "currentState": {
+          "detailStatus": "",
+          "exitCode": null,
+          "finishTime": null,
+          "startTime": "2022-11-14T15:19:36.492000+00:00",
+          "state": "Running"
+        },
+        "events": null,
+        "previousState": null,
+        "restartCount": 0
+      },
+      "livenessProbe": null,
+      "name": "smart-api-mock",
+      "ports": [
+        {
+          "port": 8080,
+          "protocol": "TCP"
+        }
+      ],
+      "readinessProbe": null,
+      "resources": {
+        "limits": null,
+        "requests": {
+          "cpu": 1.0,
+          "gpu": null,
+          "memoryInGb": 1.5
+        }
+      },
+      "volumeMounts": null
+    }
+  ],
+  "diagnostics": null,
+  "dnsConfig": null,
+  "encryptionProperties": null,
+  "id": "/subscriptions/bb3ccafe-6895-456d-aab1-9b65a4ed0afd/resourceGroups/smart-api-mock/providers/Microsoft.ContainerInstance/containerGroups/smart-api-mock",
+  "identity": null,
+  "imageRegistryCredentials": null,
+  "initContainers": [],
+  "instanceView": {
+    "events": [],
+    "state": "Running"
+  },
+  "ipAddress": {
+    "dnsNameLabel": "smart-api-mock",
+    "fqdn": "smart-api-mock.centralindia.azurecontainer.io",
+    "ip": "20.207.106.89",
+    "ports": [
+      {
+        "port": 8080,
+        "protocol": "TCP"
+      }
+    ],
+    "type": "Public"
+  },
+  "location": "centralindia",
+  "name": "smart-api-mock",
+  "osType": "Linux",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "smart-api-mock",
+  "restartPolicy": "Always",
+  "sku": "Standard",
+  "subnetIds": null,
+  "tags": {},
+  "type": "Microsoft.ContainerInstance/containerGroups",
+  "volumes": null,
+  "zones": null
+}

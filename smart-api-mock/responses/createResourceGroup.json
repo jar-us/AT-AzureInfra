@@ -1,0 +1,11 @@
+{
+  "id": "/subscriptions/bb3ccafe-6895-456d-aab1-9b65a4ed0afd/resourceGroups/smart-api-mock",
+  "location": "centralindia",
+  "managedBy": null,
+  "name": "smart-api-mock",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": null,
+  "type": "Microsoft.Resources/resourceGroups"
+}
